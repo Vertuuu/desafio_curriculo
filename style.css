@@ -1,0 +1,48 @@
+body, main {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    padding: 2%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#lista-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+#identificacao {
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#id-texto {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img#rigby-foto {
+    width: 30%;
+    border-radius: 100px;
+    box-shadow: 0px 0px 30px gray;
+}
+
+#apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    width: 80%;
+    text-align: justify;
+}
